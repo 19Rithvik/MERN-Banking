@@ -23,7 +23,7 @@ const db = require('./config/keys').mongoURI;
 
 //Connect to DB
 mongoose.connect(
-    db,
+    "mongodb+srv://Admin:jana1729J@barcodebillgenerator.h7ziz.mongodb.net/BillFields?retryWrites=true&w=majority",
     { useNewUrlParser: true }
 )
 .then(() => console.log("MongoDB succesfully connected"))
